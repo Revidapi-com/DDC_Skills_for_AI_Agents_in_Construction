@@ -1,3 +1,28 @@
+> ## RevidAPI edition
+>
+> This is a fork of [datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction](https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction) (MIT, see `LICENSE`), set up to run with a [RevidAPI](https://revidapi.com) key. All skill content belongs to the original authors.
+>
+> **Install the skills** (Claude Code, Codex, Hermes Agent — only apps found on your machine):
+>
+> ```bash
+> git clone --depth 1 https://github.com/Revidapi-com/DDC_Skills_for_AI_Agents_in_Construction
+> bash DDC_Skills_for_AI_Agents_in_Construction/revidapi/install.sh
+> ```
+> Windows: `powershell -ExecutionPolicy Bypass -File revidapi\install.ps1`
+>
+> **Use your RevidAPI key** for the Python examples that call the OpenAI SDK: copy `.env.example` to `.env`, or
+> `export OPENAI_BASE_URL=https://revidapi.com/v1` and `export OPENAI_API_KEY=<your key>`. Get a key at https://revidapi.com/dashboard.
+>
+> **Tested 06/11/2026** with the `critical-path-analyzer` skill on a sample schedule (correct answer A → C → D, 8 days) in Claude Code, Codex CLI and Hermes Agent, all through RevidAPI.
+>
+> **Security notes**
+> - The installer copies only folders containing `SKILL.md`. It never copies the upstream `.claude/` folder (it granted git push/reset permissions) and never overwrites a skill you already have.
+> - Some skills call third-party CAD converters (`.exe`) or `curl ... | sh` installers. Read the skill before letting an agent run them.
+> - Skills that need embeddings (`OpenAIEmbeddings`) do not work on RevidAPI; chat-based skills do.
+> - ChatGPT Desktop cannot load skills or use a custom endpoint.
+>
+> Video overview (upstream): https://www.youtube.com/watch?v=jVU7vlMNTO0
+
 <h1 align="center">DDC Skills Collection for AI Coding Assistants</h1>
 
 <p align="center">
