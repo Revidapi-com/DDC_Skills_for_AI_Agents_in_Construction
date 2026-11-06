@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:07,280
+Hướng dẫn cài bộ hơn hai trăm ba mươi skill ngành xây dựng cho AI agent, chạy bằng API của RevidAPI.
+
+2
+00:00:07,780 --> 00:00:16,360
+Bộ skill giúp AI đọc dữ liệu bản vẽ DWG, Revit, IFC, rồi lập bảng, tính diện tích và khối lượng.
+
+3
+00:00:16,860 --> 00:00:20,350
+Kết quả có thể đối chiếu lại với dữ liệu gốc trong AutoCAD.
+
+4
+00:00:20,850 --> 00:00:29,760
+Bước một. Clone repo từ GitHub của RevidAPI, rồi chạy lệnh cài. Skill được chép vào Claude Code, Codex và Hermes Agent.
+
+5
+00:00:30,260 --> 00:00:36,890
+Bước hai. Lấy API key trên revidapi chấm com, rồi đặt biến môi trường để agent gọi qua RevidAPI.
+
+6
+00:00:37,390 --> 00:00:48,250
+Bước ba. Hỏi agent bằng tiếng Việt. Ví dụ tìm đường găng của bảng tiến độ. Claude Code dùng skill và trả lời: A, C, D, tổng tám ngày.
+
+7
+00:00:48,750 --> 00:00:54,090
+Tải bộ skill tại GitHub Revidapi-com. Lấy key tại revidapi chấm com.

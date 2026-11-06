@@ -21,7 +21,7 @@
 > - Skills that need embeddings (`OpenAIEmbeddings`) do not work on RevidAPI; chat-based skills do.
 > - ChatGPT Desktop cannot load skills or use a custom endpoint.
 >
-> Video overview (upstream): https://www.youtube.com/watch?v=jVU7vlMNTO0
+> **Video hướng dẫn (tiếng Việt, 55s):** https://github.com/Revidapi-com/DDC_Skills_for_AI_Agents_in_Construction/releases/download/v1.0-revidapi/huong-dan-ddc-revidapi.mp4 — cũng có trong `revidapi/video/` kèm phụ đề `.srt`.
 
 <h1 align="center">DDC Skills Collection for AI Coding Assistants</h1>
 
